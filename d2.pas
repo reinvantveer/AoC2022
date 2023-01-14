@@ -61,7 +61,7 @@ program AoCd2;
 
 begin
         WriteLn('Advent of Code 2022 Day 2');
-        open(InputFile, 'd2p1.txt');
+        Reset(InputFile, 'd2p1.txt');
         WriteLn('Opened input file');
 
         TotalScorePart1 := 0;

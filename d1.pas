@@ -48,7 +48,7 @@ program AoC2022D1;
 begin
         WriteLn('Advent of Code 2022 Day 1 part 1');
         WriteLn('Test:', StringToInteger('12345'));
-        open(SampleFile, 'd1p1.txt');
+        Reset(SampleFile, 'd1p1.txt');
 
         Sum := 0;
         Max1 := 0;
